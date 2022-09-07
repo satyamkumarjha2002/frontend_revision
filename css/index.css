@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.nav-section{
+    min-height: 46vw;
+}
+
+#navbar{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+
+#navbar>div{
+    color: rgb(29, 28, 28);
+}
+#navbar>div:hover{
+    cursor: pointer;
+    color: rgb(255, 187, 0);
+}
+
+.nav-section>:nth-child(2){
+    padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+#details>div{
+    margin-top: 10%;
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+#details>div>p{
+    line-height: 3ex;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#details>div>h3{
+    font-size: 40px;
+    font-weight: 100;
+}
+#details>#button{
+    padding: 10px;
+    border: 3px solid rgb(18, 18, 18);
+    text-align: center;
+    border-radius: 30px;
+    width: 30%;
+    font-size: larger;
+}
+#details>#button:hover{
+    cursor: pointer;
+}
+.nav-section>:first-child>img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-section>:last-child {
+    background-color: #F5E3D7;
+}
+
+.skill-and-about {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+.skill-and-about>div {
+   height: fit-content;
+   max-height: 300px;
+}
+
+.skill-and-about>:first-child {
+    /* padding: 20px; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.skill-and-about>:first-child>div{
+    width: 90%;
+    margin: auto;
+}
+.skill-and-about>:first-child>div>p{
+ line-height: 2.5ex;
+ margin-top: 10px;
+}
+
+.skill-and-about>:nth-child(2) {
+   width: 100%;
+   height: 100%;
+}
+.skill-and-about>:nth-child(2)>img{
+  width: 100%;
+  height: 100%;
+}
+
+.skill-and-about>:nth-child(3) {
+    background-color: #EBAF4F;
+    width: 100%;
+    height: 100%;
+}
+.skill-and-about>:nth-child(3)>p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.skill-and-about>:nth-child(4) {
+    background-color: blue;
+}
+
+.products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+.products>div {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.products>:nth-child(1) {
+    background-color: #EBAF4F;
+}
+
+.products>:nth-child(2) {
+    background-color:#FB683D;
+}
+
+.products>:nth-child(3) {
+    background-color: #161616;
+}
+
+.products>:nth-child(4) {
+    background-color: white;
+    color: black;
+}
+
+.education-and-exp {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.education-and-exp>div{
+    height: 370px;
+}
+.education-and-exp>div>img{
+    width: 100%;
+    height: 100%;
+}
+.education-and-exp>:nth-child(1){
+   
+}
+.education-and-exp>:nth-child(2){
+    background-color: #FB683D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education-and-exp>:nth-child(3){
+    background-color: #EBAF4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.education-and-exp>:nth-child(4){
+   
+}
+#message-and-address>div{
+    min-height: 600px;
+    max-height: 80%;
+}
+#message-and-address>div>img{
+    height: 100%;
+    width: 100%;
+}
+#message-and-address{
+    min-height: 800px;
+    background-color: rgb(251,104,61);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#message-and-address>:first-child{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#message-and-address>:nth-child(3){
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer{
+    width: 100%;
+}
+.footer>div{
+   min-height: 400px;
+}
+.footer>:nth-child(1){
+    background-color: rgb(251,104,61);
+}
+.footer>:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+.footer>:nth-child(2)>div{
+    color: rebeccapurple;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 10px;
+}
+.footer>:nth-child(2)>div:hover{
+    cursor: pointer;
+}

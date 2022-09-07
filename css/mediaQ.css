@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1000px){
+    .nav-section{
+        grid-template-columns: auto;
+        height: auto;
+    } 
+}
+@media only screen and (max-width: 800px) {
+    .nav-section{
+        grid-template-columns: auto;
+        height: auto;
+    }
+    .nav-section>div{
+        height: fit-content;
+        width: 100%;
+    }
+    .nav-section>:nth-child(2){
+        padding: 10px;
+        overflow-x: hidden;
+    }
+    #navbar{
+        display: none;
+    }
+    .skill-and-about{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:auto;
+    }
+
+    .products{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    #message-and-address{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:auto;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .skill-and-about{
+        width: 100%;
+        display: block;
+    }
+    .products{
+        width: 100%;
+        display: block;
+    }
+    .education-and-exp{
+        display: block;
+    }
+   #details>#button{
+        width: 300px;
+    }
+    .footer>:first-child{
+        display: none;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3,1fr);
+    }
+  
+}
