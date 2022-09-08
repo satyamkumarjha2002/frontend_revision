@@ -24,11 +24,11 @@ body{
   box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
 }
 .wrapper .item{
-  color: #fff;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   margin-bottom: 8px;
   padding: 12px 17px;
-  background: rgb(196, 17, 227);
+  border: 1px solid black;
   border-radius: 3px;
   align-items: center;
   text-align: center;
